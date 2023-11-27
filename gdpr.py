@@ -19,7 +19,7 @@ def main():
     # Replace placeholders and display the result
     result_url = replace_placeholders(user_input)
     print("\nModified URL:\n", result_url)
-    print()
+    print("-----------------------------------------------------------------")
 
 #calling main
 if __name__ == "__main__":
