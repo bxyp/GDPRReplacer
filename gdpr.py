@@ -1,3 +1,6 @@
+## Bryan Xaysanavongphet 11/24/23
+## Replaces the GDPR section within a URL
+
 #main function to replace the GDPR
 def replace_placeholders(url, dynamic_number):
   # Replace placeholders in the URL
