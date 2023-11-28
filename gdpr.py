@@ -17,7 +17,7 @@ def main():
     #counter to keep track of how many URLs until the loop has ended
     counter+=1
     # Get URL input from the user
-    print("This is the {counter} URL")
+    print (f"This is URL #{counter} ")
     user_input = input("Enter a URL (type 'end' to exit): \n")
 
     # Check if the user wants to end the program
@@ -25,7 +25,7 @@ def main():
       break
   
     # Replace placeholders and display the result
-    result_url = replace_placeholders(user_input)
+    result_url = replace_placeholders(user_input, dynamic_number)
     print("The new modified URL is:\n", result_url)
     print("-----------------------------------------------------------------")
 
