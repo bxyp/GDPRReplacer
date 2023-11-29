@@ -22,11 +22,11 @@ def main():
   userInput = input()
   
   #If statement for the menu options
-  if userInput == 1:
+  if userInput == '1':
     dynamic_number = 755
-  elif userInput == 2:
-    dynamic_number = 68
-  elif userInput == 3:
+  elif userInput == '2':
+    dynamic_number = 68 
+  elif userInput == '3':
     print("Please enter the value")
     dynamic_number = input()
   
