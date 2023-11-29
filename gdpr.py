@@ -10,8 +10,25 @@ def replace_placeholders(url, dynamic_number):
 
 #Main function
 def main():
-  #Asking for the user to input the GDPR number so that it can replace the whole string
-  dynamic_number = input("Please enter the number after GDPR CONSENT: \n")
+  
+  #Assigning a default value to the GDPR Consent number
+  dynamic_number = 0
+  
+  #Giving the user some options to select from. ("Will update these over time")
+  print("Please select the GDPR CONSENT number")
+  print("1. '755': Doubleclick")
+  print("2. '68': Volkswagen")
+  print("3. 'Other': Please enter the value")
+  userInput = input()
+  
+  #If statement for the menu options
+  if userInput == 1:
+    dynamic_number = 755
+  elif userInput == 2:
+    dynamic_number = 68
+  elif userInput == 3:
+    print("Please enter the value")
+    dynamic_number = input()
   
   counter = 0
   
