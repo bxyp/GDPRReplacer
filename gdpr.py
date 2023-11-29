@@ -16,8 +16,8 @@ def main():
   
   #Giving the user some options to select from. ("Will update these over time")
   print("Please select the GDPR CONSENT number")
-  print("1. '755': Doubleclick")
-  print("2. '68': Volkswagen")
+  print("1. Doubleclick: '755'")
+  print("2. Volkswagen: '68'")
   print("3. 'Other': Please enter the value")
   userInput = input()
   
@@ -30,6 +30,7 @@ def main():
     print("Please enter the value")
     dynamic_number = input()
   
+  #Counter for the URLS
   counter = 0
   
   #While loop to keep asking for the urls
